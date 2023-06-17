@@ -53,6 +53,8 @@
           "configurations": {
             "prod": {
               "sourceMap": true,
+              "buildOptimizer": true,
+              "optimization": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
